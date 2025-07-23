@@ -17,9 +17,14 @@ const Hero = () => {
     <div className="hero-container">
       <Hero3D />
       <div className={`hero-content ${visible ? 'fade-in' : ''}`}>
-        <h1> I BUILD INTERFACES + INTELLIGENCE</h1>
-        <h2>AARYA SONI</h2>
+        <h1> <strong>I BUILD INTERFACES + INTELLIGENCE</strong></h1>
+        <h2><strong>AARYA SONI</strong></h2>
       </div>
+
+      <div className="scroll-cue" onClick={() => document.getElementById('about').scrollIntoView({ behavior: 'smooth' })}>
+        scroll to explore ↓
+      </div>
+
     </div>
   );
 };
