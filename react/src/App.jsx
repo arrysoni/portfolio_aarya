@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
-import Hero from './components/Hero';
+import Hero from './pages/Hero';
 import Navigation from './components/Navigation';
-import Hero3D from './components/Hero3D';
-import About from './components/About';
-import Experience from './components/Experience';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Blogs from './components/Blogs';
+import Hero3D from './pages/Hero3D';
+import About from './pages/About';
+import Experience from './pages/Experience';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
+import Blogs from './pages/Blogs';
 
 import './App.css'
 
