@@ -16,7 +16,7 @@ const Blog = () => {
   return (
     <section id="blogs" className="blog-section">
       <RevealOnScroll delay={0}>
-        <h2 className="blog-title">Blog</h2>
+        <h2 className="blog-title">Blogs</h2>
       </RevealOnScroll>
 
       <div className="blog-list">
