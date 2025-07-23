@@ -1,29 +1,25 @@
-import React, {useState} from 'react';
-import Hero from './pages/Hero';
+import React, { lazy, Suspense } from 'react';
 import Navigation from './components/Navigation';
-import Hero3D from './pages/Hero3D';
+import Hero from './pages/Hero';
 import About from './pages/About';
 import Experience from './pages/Experience';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
-import Blogs from './pages/Blogs';
-
-import './App.css'
+import Blog from './pages/Blogs';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div>
+    <>
       <Navigation />
-      <Hero3D />
       <Hero />
       <About />
       <Experience />
       <Projects />
+      <Blog />
       <Contact />
-    </div>
-  )
+    </>
+  );
 }
 
-export default App
+export default App;

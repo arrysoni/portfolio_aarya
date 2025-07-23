@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Project.css';
+import RevealOnScroll from '../components/RevealOnScroll';
 
 const projects = [
   {
@@ -42,24 +43,28 @@ const projects = [
 const Projects = () => {
   return (
     <section id="projects" className="projects-section">
-      <h2 className="projects-title">Projects</h2>
+      <RevealOnScroll delay={0}>
+        <h2 className="projects-title">Projects</h2>
+      </RevealOnScroll>
+
       <div className="projects-grid">
         {projects.map((project, index) => (
-          <a
-            key={index}
-            href={project.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="project-card"
-          >
-            <h3>{project.title}</h3>
-            <p className="project-description">{project.description}</p>
-            <div className="project-tags">
-              {project.tech.map((tag, i) => (
-                <span className="tag" key={i}>{tag}</span>
-              ))}
-            </div>
-          </a>
+          <RevealOnScroll key={index} delay={0.1 + index * 0.1}>
+            <a
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-card"
+            >
+              <h3>{project.title}</h3>
+              <p className="project-description">{project.description}</p>
+              <div className="project-tags">
+                {project.tech.map((tag, i) => (
+                  <span className="tag" key={i}>{tag}</span>
+                ))}
+              </div>
+            </a>
+          </RevealOnScroll>
         ))}
       </div>
     </section>

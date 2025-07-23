@@ -1,59 +1,63 @@
 .about-section {
-    min-height: 100vh;
-    background-color: #1c1c1c; /* dark background */
-    color: #ffffff;
-    padding: 6rem 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .about-container {
-    max-width: 800px;
-    text-align: center;
-  }
+  padding: 4rem 2rem;
+  background-color: #1e1e1e;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
-  .about-image {
-    width: 250px;
-    height: auto;
-    border-radius: 10px;
-    object-fit: cover;
-    display: block;
-    margin: 0 auto 2rem;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
-    max-width: 90vw; /* ensures it looks good on mobile */
-  }
-  
-  
-  .about-title {
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 2rem;
-    color: #f4b942; /* golden accent */
-  }
-  
-  .about-intro,
-  .about-body,
-  .about-footer {
-    font-size: 1.1rem;
-    line-height: 1.7;
-    margin-bottom: 1.5rem;
-    color: #e6e6e6; /* light gray for readability */
-  }
-  
-  .about-btn {
-    margin-top: 2rem;
-    display: inline-block;
-    padding: 0.75rem 1.5rem;
-    border: 2px solid #f4b942;
-    color: #f4b942;
-    text-decoration: none;
-    border-radius: 6px;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .about-btn:hover {
-    background-color: #f4b942;
-    color: #1a1a1a;
-  }
-  
+.about-container {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-image {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 20px rgba(255, 200, 0, 0.2);
+}
+
+.about-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #f5b942;
+  margin-bottom: 1.2rem;
+}
+
+.about-intro,
+.about-body,
+.about-footer {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  color: #e0e0e0;
+}
+
+.about-intro strong,
+.about-body strong {
+  color: #fff;
+  font-weight: 600;
+}
+
+.about-btn {
+  padding: 0.75rem 1.5rem;
+  background-color: transparent;
+  color: #f5b942;
+  border: 1px solid #f5b942;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.about-btn:hover {
+  background-color: #f5b942;
+  color: #1e1e1e;
+}
