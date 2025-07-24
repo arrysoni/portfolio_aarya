@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio built using **React + Vite + Tailwind CSS + Framer Motion** and deployed on **Vercel**. This site showcases my work, technical skills, blogs, and research, all tied together in a sleek, performant, and responsive design.
 
-**Live Site**: [portfolio-aarya.vercel.app](https://portfolio-aarya-git-main-aarya-sonis-projects.vercel.app)
+**Live Site**: [portfolio-aarya.vercel.app](https://portfolio-aarya-rmhrjtgp7-aarya-sonis-projects.vercel.app/)
 
 ---
 
