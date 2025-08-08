@@ -1,23 +1,15 @@
-import React from "react";
-import "../styles/Blog.css";
-import RevealOnScroll from "../components/RevealOnScroll";
+import React from 'react';
+import '../styles/Blog.css';
+import RevealOnScroll from '../components/RevealOnScroll';
 
 const blogs = [
   {
-    title:
-      "From Writing to Experience: How a Technical Writing Project Transformed My View of UI/UX",
-    date: "July 2025",
+    title: 'From Writing to Experience: How a Technical Writing Project Transformed My View of UI/UX',
+    date: 'July 2025',
     summary:
-      "This reflective piece traces how a college technical writing assignment sparked a deep appreciation for user-centered design and shaped how I now approach UI/UX in real-world projects.",
-    link: "https://medium.com/@aarya19204/from-writing-to-experience-how-a-technical-writing-project-transformed-my-view-of-ui-ux-3d2e7cd5637e",
-  },
-  {
-    title: "Discipline or Distress? Knowing When to Stop",
-    date: "August 2025",
-    summary:
-      "A thought-provoking reflection on the fine line between pushing your limits and recognizing when perseverance turns into self-harm.",
-    link: "https://medium.com/@aarya19204/discipline-or-distress-knowing-when-to-stop-d1c8042302fb",
-  },
+      'This reflective piece traces how a college technical writing assignment sparked a deep appreciation for user-centered design and shaped how I now approach UI/UX in real-world projects.',
+    link: 'https://medium.com/@aarya19204/from-writing-to-experience-how-a-technical-writing-project-transformed-my-view-of-ui-ux-3d2e7cd5637e'
+  }
 ];
 
 const Blog = () => {
