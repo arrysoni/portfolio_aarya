@@ -19,6 +19,7 @@
     gap: 2rem;
     max-width: 1200px;
     margin: 0 auto;
+    align-items: stretch; /* Ensures equal height in grid */
   }
   
   .blog-card {
@@ -28,7 +29,15 @@
     padding: 2rem;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column; /* Allows summary + link alignment */
+    height: 100%; /* Make cards equal height */
   }
+  
+  .blog-summary {
+    flex-grow: 1; /* Pushes the link to bottom */
+  }
+  
   
   .blog-card:hover {
     transform: translateY(-5px);
